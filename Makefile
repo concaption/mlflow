@@ -17,4 +17,6 @@ deploy:
 run:
 	chmod +x ./main.py &&\
 		./main.py
+flow:
+	mlflow ui
 all: install lint test format deploy
